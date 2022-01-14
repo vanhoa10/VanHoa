@@ -5,6 +5,7 @@ if (count($_POST) > 0) {
     username='" . $_POST['username'] . "', password='" . $_POST['password'] . "' ,phone='" . $_POST['phone'] . "' 
     WHERE id='" . $_POST['id'] . "'");
     $message = "Cập nhật thành công";
+    //sau khi cap nhat
 }
 //$result = mysqli_query($connect, "SELECT * FROM student WHERE id ='" . $_GET['id'] . "'");
 //$row = mysqli_fetch_array($result);
