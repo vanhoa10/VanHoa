@@ -13,7 +13,8 @@
         }
         //insert data 
         $query = "delete from student where ID = $id";
-
+        //fafdfjendlfkvnj   
+        //dafasdf
         mysqli_query($connect, $query);
         //dong ket noi de khong bi loi 
         //$connect->close();
